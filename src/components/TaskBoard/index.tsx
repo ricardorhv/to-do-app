@@ -1,4 +1,5 @@
 import { View } from "react-native";
+import { EmptyTaskBoard } from "../EmptyTaskBoard";
 import { TaskInfo } from "../TaskInfo";
 import { styles } from "./styles";
 
@@ -15,6 +16,8 @@ export function TaskBoard() {
           value={0}
         />
       </View>
+
+      <EmptyTaskBoard />
     </View>
   )
 }
