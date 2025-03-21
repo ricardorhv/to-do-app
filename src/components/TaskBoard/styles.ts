@@ -11,5 +11,5 @@ export const styles = StyleSheet.create({
     alignItems: 'center'
   },
 
-  boardContainer: {}
+  tasksContainer: {}
 })

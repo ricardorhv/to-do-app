@@ -1,7 +1,7 @@
 import { Image, Text, View } from "react-native";
 import { styles } from "./styles";
 
-export function EmptyTaskBoard() {
+export function EmptyTasksList() {
   return (
     <View style={styles.container}>
       <Image 

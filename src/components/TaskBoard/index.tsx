@@ -1,5 +1,6 @@
 import { View } from "react-native";
-import { EmptyTaskBoard } from "../EmptyTaskBoard";
+import { EmptyTasksList } from "../EmptyTasksList";
+import { Task } from "../Task";
 import { TaskInfo } from "../TaskInfo";
 import { styles } from "./styles";
 
@@ -17,7 +18,10 @@ export function TaskBoard() {
         />
       </View>
 
-      <EmptyTaskBoard />
+      <EmptyTasksList />
+      <View style={styles.tasksContainer}>
+        <Task />
+      </View>
     </View>
   )
 }
