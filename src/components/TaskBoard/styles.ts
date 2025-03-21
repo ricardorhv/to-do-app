@@ -11,5 +11,8 @@ export const styles = StyleSheet.create({
     alignItems: 'center'
   },
 
-  tasksContainer: {}
+  tasksContainer: {
+    marginTop: 20,
+    gap: 20
+  }
 })

@@ -4,13 +4,15 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     padding: 12,
+    marginBottom: 8,
 
     flexDirection: 'row',
     alignItems: 'center',
-    // justifyContent: 'space-between',
-    gap: 8,
+    gap: 12,
 
     backgroundColor: Colors['gray-500'],
+    borderWidth: 1,
+    borderColor: Colors['gray-400'],
     borderRadius: 8,
   },
   wrapper: {
