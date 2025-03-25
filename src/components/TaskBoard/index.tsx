@@ -1,5 +1,5 @@
 import { Task } from "@/src/interfaces/Task";
-import { FlatList, View } from "react-native";
+import { FlatList, SafeAreaView, View } from "react-native";
 import { EmptyTasksList } from "../EmptyTasksList";
 import { TaskInfo } from "../TaskInfo";
 import { TaskItem } from "../TaskItem";
@@ -8,9 +8,10 @@ import { styles } from "./styles";
 interface TaskBoardProps {
   tasks: Task[];
   handleCompletedTask: (taskId: string) => void;
+  handleDeleteTask: (taskId: string) => void;
 }
 
-export function TaskBoard({ tasks, handleCompletedTask }: TaskBoardProps) {
+export function TaskBoard({ tasks, handleCompletedTask, handleDeleteTask }: TaskBoardProps) {
   const isTasksEmpty = tasks.length === 0
   const completedTasks = tasks.reduce((acc, task) => {
     if (task.isCompleted) return acc + 1
@@ -19,7 +20,7 @@ export function TaskBoard({ tasks, handleCompletedTask }: TaskBoardProps) {
   const createdTasks = tasks.length
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.infoContainer}>
         <TaskInfo 
           type="created"
@@ -44,10 +45,12 @@ export function TaskBoard({ tasks, handleCompletedTask }: TaskBoardProps) {
             <TaskItem
               task={item}
               handleCompletedTask={handleCompletedTask}
+              handleDeleteTask={handleDeleteTask}
             />
           )
         }
+        contentContainerStyle={styles.contentContainer}
       />
-    </View>
+    </SafeAreaView>
   )
 }

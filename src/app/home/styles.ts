@@ -14,6 +14,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
 
     backgroundColor: Colors["gray-700"],
+    height: 175
   },
 
   logo: {
