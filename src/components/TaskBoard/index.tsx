@@ -32,14 +32,12 @@ export function TaskBoard({ tasks, handleCompletedTask, handleDeleteTask }: Task
         />
       </View>
 
-      {
-        isTasksEmpty && <EmptyTasksList />
-      }
-
       <FlatList 
         data={tasks} 
         style={styles.tasksContainer}
         keyExtractor={({id}) => id}
+        showsVerticalScrollIndicator={false}
+        ListEmptyComponent={<EmptyTasksList />}
         renderItem={
           ({ item }) => (
             <TaskItem
