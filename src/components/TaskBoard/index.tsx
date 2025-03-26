@@ -12,7 +12,6 @@ interface TaskBoardProps {
 }
 
 export function TaskBoard({ tasks, handleCompletedTask, handleDeleteTask }: TaskBoardProps) {
-  const isTasksEmpty = tasks.length === 0
   const completedTasks = tasks.reduce((acc, task) => {
     if (task.isCompleted) return acc + 1
     return acc

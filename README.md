@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+<p align="center">
+  <img src="./.github/logo.png">
+</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<hr>
 
-## Get started
+## App developed to learn the fundamentals about React Native
 
-1. Install dependencies
+<img src="./.github/cover.png">
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 📚 Learning
+All the things that I learned and practiced with this project
 
-   ```bash
-    npx expo start
-   ```
+- I learned `how React Native works`
+- I learned `FlatList` to create list of items
+- I practice `states` of React to control data
+- I learned about `SafeAreaView` to adapt the layout to IOS devices
 
-In the output, you'll find options to open the app in a
+<br>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧪 Technologies
 
-## Get a fresh project
+This project was developed using de following technologies:
 
-When you're ready, run:
+- [React Native](https://reactnative.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Expo](https://expo.dev/)
+- [React](https://react.dev/)
 
-```bash
-npm run reset-project
-```
+<br>
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🔖 Layout
 
-To learn more about developing your project with Expo, look at the following resources:
+You can view the project layout through the links below:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [Layout](<https://www.figma.com/file/1XfZQGSWk4HWjvwcjd2nOP/ToDo-List/duplicate>)
 
-## Join the community
+Remembering that you need to have a [Figma](http://figma.com/) account to access it.
 
-Join our community of developers creating universal apps.
+<br>
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+Developed by [ricardorhv](https://github.com/ricardorhv) 🖤
