@@ -24,7 +24,7 @@ All the things that I learned and practiced with this project
 
 ## 🧪 Technologies
 
-This project was developed using de following technologies:
+This project was developed using the following technologies:
 
 - [React Native](https://reactnative.dev/)
 - [Typescript](https://www.typescriptlang.org/)
